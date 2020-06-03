@@ -2,7 +2,7 @@ from pandas import DataFrame
 import pandas as pd
 
 
-import binput2 as bi
+import binput as bi
 
 contract, b1c, b1w, s1c, s1w = bi.contract, bi.b1c, bi.b1w, bi.s1c, bi.s1w
 b1str, b1avgp, b1size, s1str, s1avgp, s1size = bi.b1str, bi.b1avgp, bi.b1size, bi.s1str, bi.s1avgp, bi.s1size
