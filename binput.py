@@ -2,18 +2,17 @@ from pandas import DataFrame
 import pandas as pd
 import numpy as np
 
+#the event the two options relate to
+#contract = "USD/JPY>108"
 #contract = "AUD/USD"
+
 contract = "USD/JPY"
 
 #b1str is the buy side strike price
 
-b1str = float(108.90)
-b1avgp = 70
-b1size = 150
+b1p, b1str, b1avgp, b1size = False, float(108.94), 51, 100
 
-s1str = float(108.98)
-s1avgp = 42
-s1size = 200
+s1p, s1str, s1avgp, s1size = False, float(109.14), 65, 45
 
 #additional positions
 
